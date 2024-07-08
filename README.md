@@ -5,7 +5,7 @@
   -Second one is for OTP verification to verify the user.
 
 # Send OTP API:
-  -HTTP Method 'POST'
+  -HTTP Method 'POST' <br/>
   -API endpoint 'host/v1/otp/send-otp'
   -Request body:      
     {
