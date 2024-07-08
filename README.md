@@ -6,7 +6,7 @@
 
 # Send OTP API:
   -HTTP Method 'POST' <br/>
-  -API endpoint 'host/v1/otp/send-otp'<br/>
+  -API endpoint 'host/v1/otp/send-otp' <br/>
   -Request body:      
     {
       "phone_no": "+91##########" // Need to use country code before phone number.
@@ -19,9 +19,9 @@
     }
 
 # Verify OTP API:
-  -HTTP Method 'POST'
-  -API endpoint 'host/v1/otp/verify-otp'
-  -OTP Expiration time 5 minutes
+  -HTTP Method 'POST' <br/>
+  -API endpoint 'host/v1/otp/verify-otp' <br/>
+  -OTP Expiration time 5 minutes <br/>
   -Request body: 
     {
       "phone_no": "+91##########",
