@@ -22,13 +22,13 @@
   -HTTP Method 'POST' <br/>
   -API endpoint 'host/v1/otp/verify-otp' <br/>
   -OTP Expiration time 5 minutes <br/>
-  -Request body: 
+  -Request body:       
     {
       "phone_no": "+91##########",
       "otp": "676757"
     }
 
-  -Response body: 
+  -Response body:       
     {
       "status": true,
       "message": "OTP verified successfully."
