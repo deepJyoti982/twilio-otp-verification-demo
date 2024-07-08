@@ -6,7 +6,7 @@
 
 # Send OTP API:
   -HTTP Method 'POST' <br/>
-  -API endpoint 'host/v1/otp/send-otp'
+  -API endpoint 'host/v1/otp/send-otp'<br/>
   -Request body:      
     {
       "phone_no": "+91##########" // Need to use country code before phone number.
