@@ -9,7 +9,7 @@
   -API endpoint 'host/v1/otp/send-otp'
   -Request body:      
     {
-      "phone_no": "+916294175525" // Need to use country code before phone number.
+      "phone_no": "+91##########" // Need to use country code before phone number.
     }
 
   -Response body:     
@@ -24,7 +24,7 @@
   -OTP Expiration time 5 minutes
   -Request body: 
     {
-      "phone_no": "+916294175525",
+      "phone_no": "+91##########",
       "otp": "676757"
     }
 
